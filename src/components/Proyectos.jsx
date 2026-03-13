@@ -1,0 +1,92 @@
+import "../styles/proyectos.css";
+import mrChispaCard from "../assets/mrChispaCard.png";
+import portafolioCard from "../assets/portafolio-card.png";
+
+// Sección donde mostramos los proyectos del portfolio
+
+function Proyectos() {
+  return (
+    <section className="proyectos section-card" id="proyectos">
+      <div className="container">
+        {/* Título */}
+        <h2 className="section-title">Proyectos</h2>
+
+        {/* GRID DE PROYECTOS */}
+        <div className="proyectos-grid">
+          {/* Card del proyecto */}
+          <div className="proyecto-card">
+            <img
+              src={mrChispaCard}
+              alt="Mr Chispa POS"
+              className="proyecto-img"
+            />
+
+            <div className="proyecto-info">
+              <h3 className="proyecto-titulo">Mr Chispa POS</h3>
+
+              <p className="proyecto-descripcion">
+                Sistema de punto de venta desarrollado con React, Node.js y
+                MySQL para gestionar productos, ventas y control de stock.
+              </p>
+
+              <div className="proyecto-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MySQL</span>
+              </div>
+
+              <div className="proyecto-links">
+                <a
+                  href="https://github.com/nico-rotela/Mr-Chipa-Pos"
+                  className="btn"
+                >
+                  Ver código
+                </a>
+                <a href="#" className="btn-outline">
+                  Ver demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Card del portfolio */}
+          <div className="proyecto-card">
+            <img
+              src={portafolioCard}
+              alt="Portfolio Personal"
+              className="proyecto-img"
+            />
+
+            <div className="proyecto-info">
+              <h3 className="proyecto-titulo">Portfolio Personal</h3>
+
+              <p className="proyecto-descripcion">
+                Portfolio desarrollado con React para mostrar mis proyectos,
+                tecnologías y experiencia como desarrollador Full Stack.
+              </p>
+
+              <div className="proyecto-tech">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+                <span>Vite</span>
+              </div>
+
+              <div className="proyecto-links">
+                <a href="#" className="btn">
+                  Ver código
+                </a>
+                <a href="#" className="btn-outline">
+                  Ver demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Proyectos;

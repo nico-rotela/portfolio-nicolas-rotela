@@ -1,0 +1,64 @@
+/* =====================================================
+   SECCIÓN SOBRE MI
+===================================================== */
+
+.sobre-mi {
+  padding: 120px 0;
+}
+
+/* =====================================================
+   TÍTULO DE SECCIÓN
+===================================================== */
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* -----------------------------------------------------
+   Centra el título de "Sobre mí"
+----------------------------------------------------- */
+
+.sobre-mi-title {
+  text-align: center;
+}
+
+/* =====================================================
+   CONTENIDO PRINCIPAL (TEXTO + AVATAR)
+===================================================== */
+
+/* 
+   Este contenedor alinea el texto y la imagen
+   uno al lado del otro
+*/
+
+.sobre-mi-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centra el bloque completo */
+  gap: 40px; /* espacio entre texto e imagen */
+}
+
+/* =====================================================
+   TEXTO DESCRIPTIVO
+===================================================== */
+
+.sobre-mi-texto {
+  color: #aaaaaa;
+  max-width: 600px; /* limita el ancho del texto para mejor lectura */
+  line-height: 1.6;
+}
+
+/* =====================================================
+   AVATAR / ILUSTRACIÓN
+===================================================== */
+
+/* 
+   Tamaño de la caricatura del desarrollador
+*/
+
+.sobre-mi-avatar {
+  width: 260px;
+  max-width: 100%;
+  filter: blur(0.3px) drop-shadow(0 0 20px #22c55e);
+}

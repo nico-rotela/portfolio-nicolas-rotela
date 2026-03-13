@@ -1,0 +1,82 @@
+/* =====================================================
+   SECCIÓN TECNOLOGÍAS
+===================================================== */
+
+.tecnologias {
+  padding: 40px 0;
+}
+
+/* =====================================================
+   GRID DE TECNOLOGÍAS
+===================================================== */
+
+.tech-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 110px);
+
+  justify-content: center;
+
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+/* =====================================================
+   CARD DE TECNOLOGÍA
+===================================================== */
+
+.tech-item {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+
+  border-radius: 10px;
+
+  padding: 22px 16px;
+
+  text-align: center;
+
+  transition: all 0.2s ease;
+}
+
+/* LOGO */
+
+.tech-item img {
+  width: 42px;
+  height: 42px;
+
+  margin-bottom: 12px;
+
+  object-fit: contain;
+}
+
+/* TEXTO */
+
+.tech-item span {
+  font-size: 13px;
+}
+
+/* HOVER */
+
+.tech-item:hover {
+  border-color: #3ecf8e;
+  color: #3ecf8e;
+
+  transform: translateY(-2px);
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+}
+
+.tech-card {
+  transition: all 0.25s ease;
+}
+
+.tech-card img,
+.tech-card svg {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}

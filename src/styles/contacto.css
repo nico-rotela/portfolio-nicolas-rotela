@@ -1,0 +1,42 @@
+/* =====================================================
+   SECCIÓN CONTACTO
+===================================================== */
+
+.contacto {
+  padding: 120px 0;
+  text-align: center;
+}
+
+/* texto */
+
+.contacto-texto {
+  color: #aaaaaa;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* links */
+
+.contacto-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* botón link */
+
+.contacto-link {
+  border: 1px solid #3ecf8e;
+  padding: 10px 18px;
+  border-radius: 8px;
+
+  text-decoration: none;
+  color: #3ecf8e;
+
+  transition: all 0.2s ease;
+}
+
+.contacto-link:hover {
+  background: #3ecf8e;
+  color: black;
+}

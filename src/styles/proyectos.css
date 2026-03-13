@@ -1,0 +1,165 @@
+/* =====================================================
+   SECCIÓN PROYECTOS
+   Espaciado vertical de la sección
+===================================================== */
+
+.proyectos {
+  padding: 40px 0;
+}
+
+/* =====================================================
+   CARD DEL PROYECTO
+   Contenedor principal del proyecto
+===================================================== */
+
+.proyecto-card {
+  margin-top: 10px;
+
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+
+  /* sombra base */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+  /* glow verde muy leve */
+  filter: drop-shadow(0 0 6px rgba(34, 197, 94, 0.15));
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    filter 0.3s ease;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+
+  /* glow un poco más visible */
+  filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.3));
+}
+
+/* =====================================================
+   IMAGEN DEL PROYECTO
+===================================================== */
+
+.proyecto-img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+/* =====================================================
+   INFORMACIÓN DEL PROYECTO
+===================================================== */
+
+.proyecto-info {
+  padding: 18px;
+}
+
+/* título del proyecto */
+
+.proyecto-titulo {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* descripción */
+
+.proyecto-descripcion {
+  color: #aaaaaa;
+  margin-bottom: 14px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* =====================================================
+   TECNOLOGÍAS UTILIZADAS
+===================================================== */
+
+.proyecto-tech {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.proyecto-tech span {
+  background: #2a2a2a;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* =====================================================
+   BOTONES DEL PROYECTO
+===================================================== */
+
+.proyecto-links {
+  display: flex;
+  gap: 10px;
+}
+
+/* botón principal */
+
+.btn {
+  background: #3ecf8e;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background: #3ecf8e;
+  box-shadow: 0 0 12px rgba(62, 207, 142, 0.4);
+}
+
+/* botón secundario */
+
+.btn-outline {
+  border: 1px solid #2a2a2a;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+
+  transition: all 0.2s ease;
+}
+
+.btn-outline:hover {
+  border-color: #3ecf8e;
+  color: #3ecf8e;
+}
+
+/* =====================================================
+   GRID DE PROYECTOS
+===================================================== */
+
+.proyectos-grid {
+  margin-top: 40px;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(320px, 380px));
+
+  justify-content: center;
+
+  gap: 25px;
+}
+
+/* =====================================================
+   H2 TITULO
+===================================================== */
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
