@@ -24,6 +24,15 @@ Incluye una sección de proyectos, información sobre mí y enlaces a mis trabaj
 
 https://portfolio-nicolas-rotela-4fyr.vercel.app/#hero
 
+### Hero
+![hero](./screens/hero.png)
+
+### Sobre mi
+![sobre_mi](./screens/sobre_mi.png)
+
+### Tecnologias
+![tecnologias](./screens/tecnologias.png)
+
 ---
 
 ## Instalación
