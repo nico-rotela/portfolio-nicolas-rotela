@@ -1,7 +1,4 @@
-/* =====================================================
-   RESET CSS
-   Eliminamos márgenes y paddings por defecto
-===================================================== */
+/* ===== Reset básico ===== */
 
 * {
   margin: 0;
@@ -9,67 +6,58 @@
   box-sizing: border-box;
 }
 
-/* =====================================================
-   ESTILOS GENERALES
-   Fondo oscuro estilo Supabase / Vercel
-===================================================== */
+/* ===== Estilos generales ===== */
 
 body {
   background-color: #0f0f0f;
   color: white;
   font-family: "Inter", system-ui, sans-serif;
+
   position: relative;
   z-index: 1;
-}
-
-/* =====================================================
-   CONTENEDOR GENERAL
-   Limita el ancho del contenido
-===================================================== */
-
-/* Contenedor general del sitio */
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-/* =====================================================
-   ESTILO TARJETA PARA SECCIONES DEL PORTFOLIO
-===================================================== */
+/* ===== Contenedor principal ===== */
 
-/*
-   Este estilo crea el efecto de sección separada
-   con borde verde y glow suave estilo hero
-*/
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ===== Tarjetas de sección ===== */
 
 .section-card {
+  background: rgba(255, 255, 255, 0.01);
+
+  border: 1px solid rgba(34, 197, 94, 0.25);
   border-radius: 30px;
 
-  /* borde verde sutil */
-  border: 1px solid rgba(34, 197, 94, 0.25);
-
-  /* glow verde suave */
   box-shadow: 0 0 40px rgba(34, 197, 94, 0.08);
 
-  /* espacio interno */
   padding: 80px 60px;
-
-  /* separación entre secciones */
   margin-bottom: 80px;
-
-  /* fondo ligeramente distinto para profundidad */
-  background: rgba(255, 255, 255, 0.01);
 }
+
+/* Ajuste para que no tape el navbar */
 
 .sobre-mi,
 .proyectos,
 .tecnologias,
 .contacto {
   scroll-margin-top: 90px;
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 768px) {
+  .section-card {
+    padding: 50px 20px;
+    border-radius: 20px;
+  }
 }

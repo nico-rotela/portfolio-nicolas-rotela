@@ -35,8 +35,9 @@
 .sobre-mi-content {
   display: flex;
   align-items: center;
-  justify-content: center; /* centra el bloque completo */
-  gap: 40px; /* espacio entre texto e imagen */
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
 }
 
 /* =====================================================
@@ -61,4 +62,24 @@
   width: 260px;
   max-width: 100%;
   filter: blur(0.3px) drop-shadow(0 0 20px #22c55e);
+  border-radius: 50%;
+}
+
+/* =====================================================
+   RESPONSIVE (MOBILE)
+===================================================== */
+
+@media (max-width: 768px) {
+  .sobre-mi-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-mi-avatar {
+    width: 180px;
+  }
+
+  .sobre-mi-texto {
+    max-width: 100%;
+  }
 }
