@@ -15,12 +15,12 @@ function Hero() {
         <h1 className="hero-title">Nicolas Rotela</h1>
 
         {/* Profesión */}
-        <h2 className="hero-subtitle">Full Stack Developer</h2>
+        <h2 className="hero-subtitle">Desarrollador Web Full Stack</h2>
 
         {/* Descripción corta */}
         <p className="hero-description">
-          Construyo aplicaciones web modernas utilizando JavaScript, React.js y
-          Node.js.
+          Desarrollador web enfocado en React, Node.js y bases de datos SQL.
+          Estudiante en la UTN.
         </p>
       </div>
     </section>

@@ -24,6 +24,8 @@ function Proyectos() {
               <p className="proyecto-descripcion">
                 Sistema de punto de venta que permite gestionar productos,
                 registrar ventas y actualizar el stock en tiempo real.
+                Desarrollado con React en el frontend y Node.js con MySQL en el
+                backend.
               </p>
 
               <div className="proyecto-tech">
@@ -40,8 +42,13 @@ function Proyectos() {
                 >
                   Ver código
                 </a>
-                <a href="#" className="btn-outline">
-                  Ver demo (proximamente)
+                <a
+                  href="https://www.youtube.com/watch?v=D7Dh1VpulBg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-outline"
+                >
+                  Ver demo
                 </a>
               </div>
             </div>
@@ -59,8 +66,9 @@ function Proyectos() {
               <h3 className="proyecto-titulo">Portfolio Personal</h3>
 
               <p className="proyecto-descripcion">
-                Portfolio desarrollado con React para mostrar mis proyectos,
-                tecnologías y experiencia como desarrollador Full Stack.
+                Portfolio personal desarrollado en React, enfocado en presentar
+                proyectos, stack tecnológico y experiencia como desarrollador
+                Full Stack.
               </p>
 
               <div className="proyecto-tech">
@@ -73,9 +81,6 @@ function Proyectos() {
               <div className="proyecto-links">
                 <a href="#" className="btn">
                   Ver código
-                </a>
-                <a href="#" className="btn-outline">
-                  Ver demo (proximamente)
                 </a>
               </div>
             </div>
