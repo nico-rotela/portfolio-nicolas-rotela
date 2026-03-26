@@ -79,7 +79,10 @@ function Proyectos() {
               </div>
 
               <div className="proyecto-links">
-                <a href="#" className="btn">
+                <a
+                  href="https://github.com/nico-rotela/portfolio-nicolas-rotela"
+                  className="btn"
+                >
                   Ver código
                 </a>
               </div>
