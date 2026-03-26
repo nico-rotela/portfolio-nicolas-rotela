@@ -38,6 +38,8 @@ function Proyectos() {
               <div className="proyecto-links">
                 <a
                   href="https://github.com/nico-rotela/Mr-Chipa-Pos"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn"
                 >
                   Ver código
@@ -81,6 +83,8 @@ function Proyectos() {
               <div className="proyecto-links">
                 <a
                   href="https://github.com/nico-rotela/portfolio-nicolas-rotela"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn"
                 >
                   Ver código
