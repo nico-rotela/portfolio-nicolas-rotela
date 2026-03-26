@@ -1,5 +1,4 @@
 import "../styles/sobreMi.css";
-import avatar from "../assets/avatar.png";
 
 function SobreMi() {
   return (
@@ -22,7 +21,7 @@ function SobreMi() {
           </p>
 
           <img
-            src={avatar}
+            src="/avatar.png"
             alt="Ilustración programador"
             className="sobre-mi-avatar"
           />

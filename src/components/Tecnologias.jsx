@@ -8,35 +8,35 @@ function Tecnologias() {
 
         <div className="tech-grid">
           <div className="tech-item">
-            <img src="/src/assets/html.svg" alt="REST APIs" />
+            <img src="/html.svg" alt="REST APIs" />
             <span>HTML</span>
           </div>
           <div className="tech-item">
-            <img src="/src/assets/css.svg" alt="CSS" />
+            <img src="/css.svg" alt="CSS" />
             <span>CSS</span>
           </div>
           <div className="tech-item">
-            <img src="/src/assets/js.svg" alt="JavaScript" />
+            <img src="/js.svg" alt="JavaScript" />
             <span>JavaScript</span>
           </div>
 
           <div className="tech-item">
-            <img src="/src/assets/react.svg" alt="React" />
+            <img src="/react.svg" alt="React" />
             <span>React</span>
           </div>
 
           <div className="tech-item">
-            <img src="/src/assets/node.svg" alt="Node.js" />
+            <img src="/node.svg" alt="Node.js" />
             <span>Node.js</span>
           </div>
 
           <div className="tech-item">
-            <img src="/src/assets/mysql.svg" alt="MySQL" />
+            <img src="/mysql.svg" alt="MySQL" />
             <span>MySQL</span>
           </div>
 
           <div className="tech-item">
-            <img src="/src/assets/git.svg" alt="Git" />
+            <img src="/git.svg" alt="Git" />
             <span>Git</span>
           </div>
         </div>

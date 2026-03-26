@@ -8,7 +8,7 @@ function Navbar() {
       <div className="container navbar-container">
         {/* Logo / Nombre */}
         <a href="#hero" className="logo">
-          <img src="/src/assets/logo.png" alt="NR logo" className="logo-img" />
+          <img src="/logo.png" alt="NR logo" className="logo-img" />
         </a>
 
         {/* Links */}

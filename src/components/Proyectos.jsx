@@ -1,6 +1,4 @@
 import "../styles/proyectos.css";
-import mrChispaCard from "../assets/mrChispaCard.png";
-import portafolioCard from "../assets/portafolio-card.png";
 
 // Sección donde mostramos los proyectos del portfolio
 
@@ -16,11 +14,10 @@ function Proyectos() {
           {/* Card del proyecto */}
           <div className="proyecto-card">
             <img
-              src={mrChispaCard}
+              src="/mrChispaCard.png"
               alt="Mr Chispa POS"
               className="proyecto-img"
             />
-
             <div className="proyecto-info">
               <h3 className="proyecto-titulo">Mr.Chispa POS</h3>
 
@@ -53,7 +50,7 @@ function Proyectos() {
           {/* Card del portfolio */}
           <div className="proyecto-card">
             <img
-              src={portafolioCard}
+              src="/portafolio-card.png"
               alt="Portfolio Personal"
               className="proyecto-img"
             />
