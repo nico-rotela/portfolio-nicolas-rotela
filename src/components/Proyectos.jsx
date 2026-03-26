@@ -22,11 +22,11 @@ function Proyectos() {
             />
 
             <div className="proyecto-info">
-              <h3 className="proyecto-titulo">Mr Chispa POS</h3>
+              <h3 className="proyecto-titulo">Mr.Chispa POS</h3>
 
               <p className="proyecto-descripcion">
-                Sistema de punto de venta desarrollado con React, Node.js y
-                MySQL para gestionar productos, ventas y control de stock.
+                Sistema de punto de venta que permite gestionar productos,
+                registrar ventas y actualizar el stock en tiempo real.
               </p>
 
               <div className="proyecto-tech">
@@ -44,7 +44,7 @@ function Proyectos() {
                   Ver código
                 </a>
                 <a href="#" className="btn-outline">
-                  Ver demo
+                  Ver demo (proximamente)
                 </a>
               </div>
             </div>
@@ -78,7 +78,7 @@ function Proyectos() {
                   Ver código
                 </a>
                 <a href="#" className="btn-outline">
-                  Ver demo
+                  Ver demo (proximamente)
                 </a>
               </div>
             </div>

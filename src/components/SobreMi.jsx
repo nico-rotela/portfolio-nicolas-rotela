@@ -11,10 +11,14 @@ function SobreMi() {
         {/* contenido */}
         <div className="sobre-mi-content">
           <p className="sobre-mi-texto">
-            Soy desarrollador Full Stack enfocado en construir aplicaciones web
-            modernas utilizando tecnologías como JavaScript, React, Node.js y
-            MySql. Me gusta desarrollar sistemas completos, desde el diseño de
-            la base de datos hasta la interfaz de usuario.
+            Empecé a programar por curiosidad y terminé encontrando algo que
+            realmente me gusta. Me formé con cursos en CoderHouse y actualmente
+            estudio en la UTN, con especial interés en el backend y la
+            resolución de problemas. Estoy desarrollando proyectos propios con
+            JavaScript, React y Node.js mientras busco mi primera oportunidad en
+            IT. Vengo de más de 10 años en atención al cliente, lo que me dio
+            una base sólida en comunicación, trabajo en equipo y manejo de
+            relaciones.
           </p>
 
           <img

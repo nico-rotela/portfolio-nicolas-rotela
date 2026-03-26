@@ -19,7 +19,7 @@ function Hero() {
 
         {/* Descripción corta */}
         <p className="hero-description">
-          Construyo aplicaciones web modernas utilizando JavaScript, React y
+          Construyo aplicaciones web modernas utilizando JavaScript, React.js y
           Node.js.
         </p>
       </div>
