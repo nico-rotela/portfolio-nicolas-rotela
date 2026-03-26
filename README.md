@@ -1,14 +1,14 @@
 # Portfolio - Nicolas Rotela
 
-Portfolio personal donde presento mis proyectos y habilidades como desarrollador Full Stack.
+Portfolio enfocado en mostrar proyectos reales y habilidades en desarrollo web full stack.
 
 ---
 
 ## Descripción
 
-Este portfolio fue desarrollado para mostrar mis proyectos, tecnologías y progreso como desarrollador.
+Este portfolio presenta mis proyectos principales, incluyendo aplicaciones full stack con lógica de negocio, manejo de datos y frontend interactivo.
 
-Incluye una sección de proyectos, información sobre mí y enlaces a mis trabajos.
+Fue desarrollado como parte de mi proceso de formación construyendo proyectos reales.
 
 ---
 
@@ -24,7 +24,7 @@ Incluye una sección de proyectos, información sobre mí y enlaces a mis trabaj
 
 https://portfolio-nicolas-rotela-4fyr.vercel.app/#hero
 
-### Hero
+### Vista principal
 ![hero](./hero.png)
 
 ### Sobre mi
@@ -32,6 +32,16 @@ https://portfolio-nicolas-rotela-4fyr.vercel.app/#hero
 
 ### Tecnologias
 ![tecnologias](./tecnologias.png)
+
+## Proyecto destacado
+
+### Mr. Chispa POS
+
+Sistema de ventas (POS) con gestión de productos, carrito de ventas y control de stock.
+
+Proyecto full stack desarrollado con React, Node.js y MySQL.
+
+https://github.com/nico-rotela/Mr-Chipa-Pos
 
 ---
 
