@@ -11,6 +11,44 @@ function Proyectos() {
 
         {/* GRID DE PROYECTOS */}
         <div className="proyectos-grid">
+          {/* Card de Alfa & Omega Turnos */}
+          <div className="proyecto-card">
+            <img
+              src="/alfaYomega.png"
+              alt="Alfa & Omega Turnos"
+              className="proyecto-img"
+            />
+
+            <div className="proyecto-info">
+              <h3 className="proyecto-titulo">Alfa & Omega Turnos</h3>
+
+              <p className="proyecto-descripcion">
+                Aplicación web para la gestión de turnos de una barbería.
+                Permite crear, editar y cancelar reservas, además de consultar
+                horarios disponibles en una interfaz optimizada para
+                dispositivos móviles.
+              </p>
+
+              <div className="proyecto-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>PostgreSQL</span>
+              </div>
+
+              <div className="proyecto-links">
+                <a
+                  href="https://github.com/nico-rotela/alfa-omega-turnos"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn"
+                >
+                  Ver código
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Card del proyecto */}
           <div className="proyecto-card">
             <img
